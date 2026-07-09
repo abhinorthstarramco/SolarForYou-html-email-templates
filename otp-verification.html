@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Verification</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #efefef;
+        }
+
+        table {
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+
+        img {
+            border: 0;
+            display: block;
+        }
+
+        .wrapper {
+            width: 100%;
+            background: #efefef;
+            padding: 30px 0;
+        }
+
+        .container {
+            width: 600px;
+            background: #ffffff;
+        }
+
+        .top-border {
+            height: 4px;
+            background: #ff5b00;
+        }
+
+        .content {
+            padding: 48px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .logo {
+            width: 180px;
+        }
+
+        .heading {
+            font-size: 54px;
+            font-weight: 700;
+            line-height: 62px;
+            color: #111111;
+            margin: 45px 0 20px;
+        }
+
+        .description {
+            font-size: 24px;
+            line-height: 38px;
+            color: #222222;
+            margin: 0;
+        }
+
+        @media only screen and (max-width:620px) {
+
+            .container {
+                width: 100% !important;
+            }
+
+            .content {
+                padding: 24px !important;
+            }
+
+            .heading {
+                font-size: 36px !important;
+                line-height: 44px !important;
+            }
+
+            .description {
+                font-size: 18px !important;
+                line-height: 28px !important;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <table role="presentation" width="100%" class="wrapper">
+        <tr>
+            <td align="center">
+                <table role="presentation" width="600" class="container">
+                    <tr>
+                        <td class="top-border"></td>
+                    </tr>
+                    <tr>
+                        <td class="content">
+                            <!-- Logo -->
+                            <img
+                                src="assets/images/logo.png"
+                                alt="Solar For You"
+                                class="logo">
+                            <!-- Heading -->
+                            <h1 class="heading">
+                                Let's get you signed in
+                            </h1>
+                            <!-- Description -->
+                            <p class="description">
+                                Use the one-time code below to finish signing in
+                                to your Solar For You account.
+                                It helps keeps your account safe and secure.
+                            </p>
+
+                            <!-- Verification Code Label -->
+                            <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td style="padding-top:50px;
+                                               font-family:Arial,Helvetica,sans-serif;
+                                               font-size:15px;
+                                               font-weight:bold;
+                                               color:#222222;
+                                               letter-spacing:1px;
+                                               text-transform:uppercase;">
+                                        Verification Code
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- OTP Boxes -->
+                            <table role="presentation"
+                                   cellpadding="0"
+                                   cellspacing="0"
+                                   style="padding-top:25px;">
+                                <tr>
+                                    <td align="center"
+                                        width="56"
+                                        height="56"
+                                        style="border:2px solid #444444;
+                                               border-radius:8px;
+                                               font-size:28px;
+                                               font-weight:bold;
+                                               font-family:Arial;
+                                               color:#111111;">
+                                        9
+                                    </td>
+                                    <td width="10"></td>
+                                    <td align="center"
+                                        width="56"
+                                        height="56"
+                                        style="border:2px solid #444444;
+                                               border-radius:8px;
+                                               font-size:28px;
+                                               font-weight:bold;
+                                               font-family:Arial;
+                                               color:#111111;">
+                                        2
+                                    </td>
+                                    <td width="10"></td>
+                                    <td align="center"
+                                        width="56"
+                                        height="56"
+                                        style="border:2px solid #444444;
+                                               border-radius:8px;
+                                               font-size:28px;
+                                               font-weight:bold;
+                                               font-family:Arial;
+                                               color:#111111;">
+                                        0
+                                    </td>
+                                    <td width="10"></td>
+
+                                    <td align="center"
+                                        width="56"
+                                        height="56"
+                                        style="border:2px solid #444444;
+                                               border-radius:8px;
+                                               font-size:28px;
+                                               font-weight:bold;
+                                               font-family:Arial;
+                                               color:#111111;">
+
+                                        3
+
+                                    </td>
+
+                                    <td width="10"></td>
+
+                                    <td align="center"
+                                        width="56"
+                                        height="56"
+                                        style="border:2px solid #444444;
+                                               border-radius:8px;
+                                               font-size:28px;
+                                               font-weight:bold;
+                                               font-family:Arial;
+                                               color:#111111;">
+
+                                        8
+
+                                    </td>
+
+                                    <td width="10"></td>
+
+                                    <td align="center"
+                                        width="56"
+                                        height="56"
+                                        style="border:2px solid #444444;
+                                               border-radius:8px;
+                                               font-size:28px;
+                                               font-weight:bold;
+                                               font-family:Arial;
+                                               color:#111111;">
+
+                                        5
+
+                                    </td>
+
+                                </tr>
+
+                            </table>
+
+                            <!-- Expiry Box -->
+
+                            <table role="presentation"
+                                   width="100%"
+                                   cellpadding="0"
+                                   cellspacing="0"
+                                   style="margin-top:45px;">
+
+                                <tr>
+
+                                    <td style="background:#fff4ef;
+                                               border-radius:10px;
+                                               padding:18px 22px;">
+
+                                        <span style="color:#ff5b00;
+                                                     font-size:18px;
+                                                     font-weight:bold;">
+
+                                            ●
+
+                                        </span>
+
+                                        <span style="font-family:Arial;
+                                                     font-size:16px;
+                                                     color:#222222;
+                                                     padding-left:10px;">
+
+                                            OTP expires in 10 minutes.
+
+                                        </span>
+
+                                    </td>
+
+                                </tr>
+
+                            </table>
+                            <!-- Warning Text -->
+
+                            <table role="presentation"
+                                   width="100%"
+                                   cellpadding="0"
+                                   cellspacing="0">
+
+                                <tr>
+
+                                    <td style="padding-top:35px;
+                                               font-family:Arial;
+                                               font-size:18px;
+                                               line-height:30px;
+                                               color:#555555;">
+
+                                        Didn't request this code?
+
+                                        <br><br>
+
+                                        You can safely ignore this email.
+                                        Someone may have typed your email address
+                                        by mistake.
+
+                                        <br><br>
+
+                                        Your account stays protected.
+
+                                    </td>
+
+                                </tr>
+
+                            </table>
+
+                            <!-- Divider -->
+
+                            <table role="presentation"
+                                   width="100%"
+                                   cellpadding="0"
+                                   cellspacing="0">
+
+                                <tr>
+
+                                    <td style="padding-top:45px;">
+
+                                        <hr style="border:none;
+                                                   border-top:1px solid #dddddd;">
+
+                                    </td>
+
+                                </tr>
+
+                            </table>                            
+
+                            <!-- Footer -->
+
+                            <table role="presentation"
+                                   width="100%"
+                                   cellpadding="0"
+                                   cellspacing="0">
+                                <tr>
+                                    <td align="center"
+                                        style="padding-top:40px;">
+                                        <a href="https://facebook.com"
+                                           style="text-decoration:none;">
+                                            <img src="assets/facebook.png"
+                                                 width="24"
+                                                 alt="Facebook">
+                                        </a>
+                                    </td>
+                                    <td width="20"></td>
+                                    <td align="center"
+                                        style="padding-top:40px;">
+                                        <a href="https://instagram.com"
+                                           style="text-decoration:none;">
+                                            <img src="assets/insta.png"
+                                                 width="24"
+                                                 alt="Instagram">
+                                        </a>
+                                    </td>
+                                    <td width="20"></td>
+                                    <td align="center"
+                                        style="padding-top:40px;">
+                                        <a href="https://x.com"
+                                           style="text-decoration:none;">
+                                            <img src="assets/X.png"
+                                                 width="24"
+                                                 alt="X">
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <!-- Footer Links -->
+
+                            <table role="presentation"
+                                   width="100%"
+                                   cellpadding="0"
+                                   cellspacing="0">
+                                <tr>
+                                    <td align="center"
+                                        style="padding-top:35px;
+                                               font-family:Arial,Helvetica,sans-serif;
+                                               font-size:15px;
+                                               line-height:24px;">
+                                        <a href="#"
+                                           style="color:#444444;
+                                                  text-decoration:none;">
+                                            Help Center
+                                        </a>
+
+                                        &nbsp;&nbsp;|&nbsp;&nbsp;
+
+                                        <a href="#"
+                                           style="color:#444444;
+                                                  text-decoration:none;">
+
+                                            Privacy
+
+                                        </a>
+
+                                        &nbsp;&nbsp;|&nbsp;&nbsp;
+
+                                        <a href="#"
+                                           style="color:#444444;
+                                                  text-decoration:none;">
+
+                                            Unsubscribe
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!-- Address -->
+                            <table role="presentation"
+                                   width="100%"
+                                   cellpadding="0"
+                                   cellspacing="0">
+                                <tr>
+                                    <td align="center"
+                                        style="padding-top:28px;
+                                               font-family:Arial,Helvetica,sans-serif;
+                                               font-size:14px;
+                                               line-height:24px;
+                                               color:#777777;">
+                                        Solar For You
+                                        <br>
+                                        128 City Road
+                                        <br>
+                                        London
+                                        <br>
+                                        United Kingdom
+                                        <br>
+                                        EC1V 2NX
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
